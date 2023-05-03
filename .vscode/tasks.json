@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+            "group": "build",
+            "label": "run",
+            "command": "cargo run",
+            "type": "shell",
+            "args": [],
+            "problemMatcher": [],
+            "presentation": {
+                "panel": "new"
+            }
+        },
+        {
+            "group": "build",
+            "label": "clean",
+            "command": "cargo clean",
+            "type": "shell",
+            "args": [],
+            "problemMatcher": [],
+            "presentation": {
+                "panel": "new"
+
+            },
+        },
+        {
+            "group": "build",
+            "label": "test",
+            "command": "cargo test",
+            "type": "shell",
+            "args": [],
+            "problemMatcher": [],
+            "presentation": {
+                "panel": "new"
+
+            },
+        }
+
+    ]
